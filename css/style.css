@@ -1,0 +1,84 @@
+h3{
+	color:green;
+	font-family: 'Yatra One', bold;
+}
+
+.multiple{
+		color:olivedrab;
+}
+
+#TESTING {
+	position:absolute;
+	color:white;
+	width: 200vw;
+	height:400px;
+	background-color: rgba(0,0,0,0.5);
+	font-family: 'helvetica bold';
+	font-size:100pt;
+	top:100px;
+
+}
+#moving-div{
+	position:relative;
+	width:30vw
+	height:40px;
+	left:30vw;
+}	
+#static-div{
+	position: tatic;
+	width:45vw
+	height:40px;
+	left:30;
+	background-color:purple; 
+
+} 
+#absolute-div{
+	position:absolute;
+	width:45vw
+	height:46px;
+	left:30;
+	background-color:pink;
+
+
+} 
+#relative-div{
+	position:relative;
+	width:30vw
+	height:30px;
+	left:30vw;
+	background-color:yellow;
+	transition: color.5s ease-in; 
+}
+#fixed-div{
+	position:static;
+	width:45vw
+	height:40px;
+	left:30;
+	background-color:cyan; 
+}
+
+#my-element{
+	width:100px;
+	height: 100px;
+	background:pink;
+	transition:width 3s ease-in;
+}
+
+#my-element:hover{
+	width:300px;
+	color:olive;
+	font-size:20px;
+}
+#rotate{
+	width:300;
+	height:30px;
+	background:pink;
+}	
+#translate{
+	width:300;
+	height:30px;
+	background:black;
+	transform: translate(60px);	
+} 
+
+}
